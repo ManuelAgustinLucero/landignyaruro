@@ -1,7 +1,7 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <div class="page-header" data-parallax="true" style="background-image: url('../assets/img/daniel-olahh.jpg');">
+    <div id="home" class="page-header" data-parallax="true" style="background-image: url('../assets/img/daniel-olahh.jpg');">
         <div class="filter"></div>
         <div class="container">
             <div class="motto text-center">
@@ -12,37 +12,89 @@
         </div>
     </div>
     <div class="main">
-        <div class="section  text-center" id="nosotros">
+        {#<div class="section  text-center" id="nosotros">#}
+            {#<div class="container">#}
+                {#<div class="row">#}
+                    {#<div class="col-md-8 offset-md-2">#}
+                        {#<h2 class="title">¿Quiénes somos?</h2>#}
+                        {#<h5 class="description">Magenta Studio Creativo es una empresa con un concepto joven reinventándose constantemente basado#}
+                            {#en valores de confidencialidad, responsabilidad e innovación. Nos actualizamos con las tendencias#}
+                            {#de nuestro sector ofreciendo a nuestros clientes un portafolio integral de servicios, que les#}
+                            {#permita impulsar sus negocios y expandirse en su mercado. Como empresa de diseño y marketing#}
+                            {#digital te ayudaremos a mejorar la imagen de tu marca, producto o servicio para que llegue a#}
+                            {#la mente de los consumidores. Si bien, es cierto que el éxito de un producto o servicio se debe#}
+                            {#a su calidad, también es cierto que el diseño gráfico puede ayudar a mostrarlos de mejor manera#}
+                            {#a tus futuros clientes, con lo que mejorarás la presentación y llamarás la atención.</h5>#}
+                        {#<br>#}
+                    {#</div>#}
+                {#</div>#}
+                {#<br/><br/>#}
+
+
+            {#</div>#}
+        {#</div>#}
+        <div class="section section-about-us">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 offset-md-2">
+                    <div class="col-md-8 ml-auto mr-auto text-center">
                         <h2 class="title">¿Quiénes somos?</h2>
-                        <h5 class="description">Magenta Studio Creativo es una empresa con un concepto joven reinventándose constantemente basado
-                            en valores de confidencialidad, responsabilidad e innovación. Nos actualizamos con las tendencias
-                            de nuestro sector ofreciendo a nuestros clientes un portafolio integral de servicios, que les
-                            permita impulsar sus negocios y expandirse en su mercado. Como empresa de diseño y marketing
-                            digital te ayudaremos a mejorar la imagen de tu marca, producto o servicio para que llegue a
-                            la mente de los consumidores. Si bien, es cierto que el éxito de un producto o servicio se debe
-                            a su calidad, también es cierto que el diseño gráfico puede ayudar a mostrarlos de mejor manera
-                            a tus futuros clientes, con lo que mejorarás la presentación y llamarás la atención.</h5>
-                        <br>
-                        <a href="#contacto" class="btn btn-danger btn-round">Contacto</a>
+                        <h5 class="description">Magenta Studio Creativo es una empresa con un concepto joven reinventándose constantemente
+                            basado en valores de confidencialidad, responsabilidad e innovación.</h5>
                     </div>
                 </div>
-                <br/><br/>
-
-
+                <div class="separator separator-primary"></div>
+                <div class="section-story-overview">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="image-container image-left" style="background-image: url('https://www.flowebdesign.ie/library/slides/webdesign_portfolio.jpg')">
+                                <!-- First image on the left side -->
+                                <p class="blockquote blockquote-primary">"
+                                    Nos actualizamos con las tendencias de nuestro sector ofreciendo a nuestros clientes un portafolio
+                                    integral de servicios, que les permita impulsar sus negocios y expandirse en su mercado   "                                 <br>
+                                    <br>
+                                    </p>
+                            </div>
+                            <!-- Second image on the left side of the article -->
+                            <div class="image-container " style="background-image: url('https://www.elegantthemes.com/blog/wp-content/uploads/2016/03/tips-optimizing-design-for-mobile-thumbnail.png')"></div>
+                        </div>
+                        <div class="col-md-5">
+                            <!-- First image on the right side, above the article -->
+                            <div class="image-container image-right " style="background-image: url('https://www.rocketspark.com/application/files/2614/9679/0808/mobile-egs2.jpg')"></div>
+                            {#<h3>Nos actualizamos con las tendencias de nuestro sector ofreciendo a nuestros clientes un portafolio#}
+                                {#integral de servicios, que les permita impulsar sus negocios y expandirse en su mercado.</h3>#}
+                            <h3> Magenta Studio Creativo</h3>
+                            <p>Como empresa de diseño y marketing digital te ayudaremos a mejorar la imagen de tu marca,
+                                producto o servicio para que llegue a la mente de los consumidores.
+                            </p>
+                            <p>
+                                Si bien, es cierto que el éxito de un producto o servicio se debe a su calidad, también es cierto que
+                                el diseño gráfico puede ayudar a mostrarlos de mejor manera a tus futuros clientes, con lo que
+                                mejorarás la presentación y llamarás la atención.                            </p>
+                            <p>
+                                Nuestra misión es cubrir las necesidades gráficas y estrategias de difusión de nuestros clientes con
+                                servicios y productos de calidad, siempre con la meta de superar sus expectativas.
+                                todo bajo un esquema de innovación, visión, creatividad y compromiso, aprovechando al máximo
+                                los recursos con los que dispone el cliente.                            </p>
+                            <p>
+                                Nuestra visión es convertirnos en una agencia de diseño gráfico publicitario y marketing digital
+                                reconocida a nivel nacional por la completa, innovadora y alta calidad de sus trabajos.
+                                Somos un grupo de profesionales del diseño gráfico, la publicidad, el marketing y la comunicación,
+                                dispuestos a proporcionar a nuestros clientes herramientas de desarrollo creativo del más alto
+                                nivel.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
         <div class="section section-dark text-center" id="informacion">
             <div class="container">
-                <h2 class="title">Sobre nosotros</h2>
+                <h2 class="title">Servicios</h2>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-3">
                         <div class="card card-profile card-plain">
                             <div class="card-avatar">
-                                <a href="#avatar"><img src="../assets/img/faces/clem-onojeghuo-3.jpg" alt="..."></a>
+                                <a href="#avatar"><img   src="../assets/img/Diseño Web_Mesa de trabajo1.png" alt="..."></a>
                             </div>
                             <div class="card-block">
                                 <a href="#paper-kit">
@@ -64,10 +116,10 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6">
+                    <div class="col-md-3">
                         <div class="card card-profile card-plain">
                             <div class="card-avatar">
-                                <a href="#avatar"><img src="../assets/img/faces/joe-gardner-2.jpg" alt="..."></a>
+                                <a href="#avatar"><img src="../assets/img/Identidad Corporativa_Mesa de trabajo 1.png" alt="..."></a>
                             </div>
                             <div class="card-block">
                                 <a href="#paper-kit">
@@ -86,10 +138,10 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 ">
+                    <div class="col-md-3 ">
                         <div class="card card-profile card-plain">
                             <div class="card-avatar image">
-                                <a href="#avatar"><img src="../assets/img/faces/erik-lucatero-2.jpg" alt="..."></a>
+                                <a href="#avatar"><img src="../assets/img/Material Publicitario_Mesa de trabajo 1.png" alt="..."></a>
                             </div>
                             <div class="card-block">
                                 <a href="#paper-kit">
@@ -98,9 +150,7 @@
                                     </div>
                                 </a>
                                 <p class="card-description text-center">
-                                    Actualmente nos encontramos en una era digital en la cual es necesario tener un sitio web donde dar a conocer un negocio,
-                                    un servicio o un producto. Por este motivo nos adaptamos a las nuevas tecnologías y proveemos
-                                    un sitio web posterior a un análisis de la necesidad y sector del usuario. Este servicio
+                                      Este servicio
                                     cuenta con 3 opciones con base en los resultados del análisis mencionado anteriormente,
                                     a continuación, se mencionan dichas opciones:
                                     <br> <br>
@@ -114,10 +164,10 @@
 
                         </div>
                     </div>
-                    <div class="col-md-6 ">
+                    <div class="col-md-3 ">
                         <div class="card card-profile card-plain">
                             <div class="card-avatar ">
-                                <a href="#avatar"><img src="../assets/img/faces/erik-lucatero-2.jpg" alt="..."></a>
+                                <a href="#avatar"><img src="../assets/img/RS_Mesa de trabajo 1.png" alt="..."></a>
                             </div>
                             <div class="card-block">
                                 <a href="#paper-kit">
@@ -141,7 +191,7 @@
         <div class="section gallery  " id="portfolio">
             <div class="container">
                 <h1 class="text-center">LO QUE HEMOS ECHO</h1>
-
+                <br><br>
                 <div class="row example-page">
                     <div class="col-md-4 text-center">
                         <figure class="hover">
@@ -188,12 +238,12 @@
                 <div class="row">
 
                     <div class="col-md-8 offset-md-2">
-                        <h2 class="text-center">Quieres contactarte?</h2>
-                        <br>
-                        <h6 class="text-right"><i class="fa fa-whatsapp "></i>  &nbsp;&nbsp;<span>5539756268</span></h6>
-                        <h6 class="text-right">Ciudad de México, México</h6>
 
                         <form class="contact-form">
+                            <h2 class="text-center">Quieres contactarte?</h2>
+                            <br>
+                            <h6 class="text-right">Ciudad de México, México</h6>
+
                             <div class="row">
                                 <div class="col-md-6">
                                     <label>Nombre</label>
@@ -205,14 +255,24 @@
                                     </div>
                                 </div>
                                 <div class="col-md-6">
-                                    <label>Numero</label>
+                                    <label>Email</label>
                                     <div class="input-group">
                                         <span class="input-group-addon">
-                                                    <i class="nc-icon nc-mobile"></i>
-                                                </span>
-                                        <input type="text" class="form-control" placeholder="numero">
+												<i class="nc-icon nc-email-85"></i>
+											</span>
+                                        <input type="text" class="form-control" placeholder="Email">
                                     </div>
                                 </div>
+                                <div class="col-md-6 ">
+                                    <label>Asunto</label>
+                                    <div class="input-group">
+                                            <span class="input-group-addon">
+                                                    <i class="nc-icon nc-bookmark-2"></i>
+                                                </span>
+                                        <input type="text" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+
                                 <div class="col-md-6">
                                     <label>Tipo de servicio de interés</label>
                                     <div class="input-group">
@@ -227,24 +287,8 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <label>Email</label>
-                                    <div class="input-group">
-                                        <span class="input-group-addon">
-												<i class="nc-icon nc-email-85"></i>
-											</span>
-                                        <input type="text" class="form-control" placeholder="Email">
-                                    </div>
-                                </div>
-                                <div class="col-md-6 offset-3">
-                                    <label>Asunto</label>
-                                    <div class="input-group">
-                                            <span class="input-group-addon">
-                                                    <i class="nc-icon nc-bookmark-2"></i>
-                                                </span>
-                                        <input type="text" class="form-control" placeholder="Email">
-                                    </div>
-                                </div>
+
+
                             </div>
                             <label>Texto</label>
                             <textarea class="form-control" rows="4" placeholder="Cuetanos tus dudas"></textarea>
@@ -258,7 +302,7 @@
                 </div>
             </div>
         </div>
-        <div class="container-fluid ">
+        <div class="container-fluid " id="flota">
             <div class="row">
                 <div class="col-md-12">
 
@@ -272,15 +316,14 @@
             </div>
         </div>
     </div>
-
-
-    <footer class="footer  ">
+    <footer class="footer  main">
         <div class="container">
             <div class="row">
                 <nav class="footer-nav">
                     <ul>
-                        <li><i class="fa fa-whatsapp "></i>
-                            &nbsp;&nbsp; 5539756268
+                        <li class="nav-item ">
+                            <a href="https://api.whatsapp.com/send?phone=3584837484">                            <i class="fa fa-whatsapp "></i>
+                            </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim"
@@ -358,5 +401,20 @@
 
         popup.init()
 
+    </script>
+
+    <script>
+        $(function(){
+            $(window).scroll(function(){
+                if ($(window).scrollTop() > 3830)
+                {
+                    $("#flota").fadeOut();
+                }
+                else
+                {
+                    $("#flota").fadeIn();
+                }
+            });
+        });
     </script>
 {% endblock %}

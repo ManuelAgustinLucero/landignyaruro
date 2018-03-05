@@ -178,13 +178,6 @@ height: 100%;
         font-size: 20px !important;
 }
 
-.flotante {
-        display:scroll ;
-            position:fixed;
-            bottom:320px;
-            right:0px;
-    }
-
 
 
 
@@ -198,10 +191,11 @@ position: fixed !important;
 right: 20px;
 z-index: 100 !important;
 }
+
 #main{
         position: fixed !important;
-        
-border-radius: 40px;
+
+    border-radius: 40px;
 
 bottom: 30px;
 font-size: 23px;
@@ -209,8 +203,12 @@ height: 60px;
 width: 60px
 
 }
+.footer{
+    z-index: 100 !important;
 
+}
 
 #autre{
 bottom: 170px
 }
+
