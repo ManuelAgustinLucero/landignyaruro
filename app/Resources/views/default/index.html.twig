@@ -5,7 +5,7 @@
         <div class="filter"></div>
         <div class="container">
             <div class="motto text-center">
-                <h1>Example page</h1>
+                <h1>Magenta Studio Creativo</h1>
                 <h3>Start designing your landing page here.</h3>
                 <br />
             </div>
@@ -33,9 +33,9 @@
 
             {#</div>#}
         {#</div>#}
-        <div class="section section-about-us">
+        <div class="section section-about-us" id="nosotros">
             <div class="container">
-                <div class="row">
+                <div class="row card">
                     <div class="col-md-8 ml-auto mr-auto text-center">
                         <h2 class="title">¿Quiénes somos?</h2>
                         <h5 class="description">Magenta Studio Creativo es una empresa con un concepto joven reinventándose constantemente
@@ -45,7 +45,7 @@
                 <div class="separator separator-primary"></div>
                 <div class="section-story-overview">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 card">
                             <div class="image-container image-left" style="background-image: url('https://www.flowebdesign.ie/library/slides/webdesign_portfolio.jpg')">
                                 <!-- First image on the left side -->
                                 <p class="blockquote blockquote-primary">"
@@ -57,7 +57,7 @@
                             <!-- Second image on the left side of the article -->
                             <div class="image-container " style="background-image: url('https://www.elegantthemes.com/blog/wp-content/uploads/2016/03/tips-optimizing-design-for-mobile-thumbnail.png')"></div>
                         </div>
-                        <div class="col-md-5">
+                        <div class="col-md-5 card">
                             <!-- First image on the right side, above the article -->
                             <div class="image-container image-right " style="background-image: url('https://www.rocketspark.com/application/files/2614/9679/0808/mobile-egs2.jpg')"></div>
                             {#<h3>Nos actualizamos con las tendencias de nuestro sector ofreciendo a nuestros clientes un portafolio#}
@@ -93,7 +93,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="card card-profile card-plain">
-                            <div class="card-avatar">
+                            <div class="card-avatar card">
                                 <a href="#avatar"><img   src="../assets/img/Diseño Web_Mesa de trabajo1.png" alt="..."></a>
                             </div>
                             <div class="card-block">
@@ -118,7 +118,7 @@
 
                     <div class="col-md-3">
                         <div class="card card-profile card-plain">
-                            <div class="card-avatar">
+                            <div class="card-avatar card">
                                 <a href="#avatar"><img src="../assets/img/Identidad Corporativa_Mesa de trabajo 1.png" alt="..."></a>
                             </div>
                             <div class="card-block">
@@ -140,7 +140,7 @@
 
                     <div class="col-md-3 ">
                         <div class="card card-profile card-plain">
-                            <div class="card-avatar image">
+                            <div class="card-avatar image card">
                                 <a href="#avatar"><img src="../assets/img/Material Publicitario_Mesa de trabajo 1.png" alt="..."></a>
                             </div>
                             <div class="card-block">
@@ -166,7 +166,7 @@
                     </div>
                     <div class="col-md-3 ">
                         <div class="card card-profile card-plain">
-                            <div class="card-avatar ">
+                            <div class="card-avatar card">
                                 <a href="#avatar"><img src="../assets/img/RS_Mesa de trabajo 1.png" alt="..."></a>
                             </div>
                             <div class="card-block">
@@ -188,51 +188,88 @@
                 </div>
             </div>
         </div>
-        <div class="section gallery  " id="portfolio">
-            <div class="container">
-                <h1 class="text-center">LO QUE HEMOS ECHO</h1>
-                <br><br>
-                <div class="row example-page">
-                    <div class="col-md-4 text-center">
-                        <figure class="hover">
-                            <img src="https://images.unsplash.com/photo-1443890923422-7819ed4101c0?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600"
-                                 alt="Rounded Image" class="img-rounded img-responsive">
-                        </figure>
+
+        <div class="container gallery-container" id="portfolio">
+
+            <h1>Portfolio</h1>
+
+            <p class="page-description text-center">Algunos de los trabajos realizados</p>
+
+            <div class="tz-gallery">
+
+                <div class="row">
+
+                    <div class="col-sm-6 col-md-4 card">
+                        <div class="thumbnail">
+                            <a class="lightbox" href="../assets/img/trabajos/benches.jpg">
+                                <img src="../assets/img/trabajos/benches.jpg" alt="Park">
+                            </a>
+                            <div class="caption">
+                                <h3>Thumbnail label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 text-center">
-                        <figure class="hover">
-                            <img src="https://images.unsplash.com/photo-1443890923422-7819ed4101c0?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600"
-                                 alt="Rounded Image" class="img-rounded img-responsive">
-                        </figure>
+                    <div class="col-sm-6 col-md-4 card">
+                        <div class="thumbnail">
+                            <a class="lightbox" href="../assets/img/trabajos/benches.jpg">
+                                <img src="../assets/img/trabajos/benches.jpg" alt="Park">
+                            </a>
+                            <div class="caption">
+                                <h3>Thumbnail label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 text-center">
-                        <figure class="hover">
-                            <img src="https://images.unsplash.com/photo-1443890923422-7819ed4101c0?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600"
-                                 alt="Rounded Image" class="img-rounded img-responsive">
-                        </figure>
+                    <div class="col-sm-6 col-md-4 card">
+                        <div class="thumbnail">
+                            <a class="lightbox" href="../assets/img/trabajos/benches.jpg">
+                                <img src="../assets/img/trabajos/benches.jpg" alt="Park">
+                            </a>
+                            <div class="caption">
+                                <h3>Thumbnail label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 text-center">
-                        <figure class="hover">
-                            <img src="https://images.unsplash.com/photo-1443890923422-7819ed4101c0?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600"
-                                 alt="Rounded Image" class="img-rounded img-responsive">
-                        </figure>
+                    <div class="col-sm-6 col-md-4 card">
+                        <div class="thumbnail">
+                            <a class="lightbox" href="../assets/img/trabajos/benches.jpg">
+                                <img src="../assets/img/trabajos/benches.jpg" alt="Park">
+                            </a>
+                            <div class="caption">
+                                <h3>Thumbnail label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 text-center">
-                        <figure class="hover">
-                            <img src="https://images.unsplash.com/photo-1443890923422-7819ed4101c0?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600"
-                                 alt="Rounded Image" class="img-rounded img-responsive">
-                        </figure>
+                    <div class="col-sm-6 col-md-4 card">
+                        <div class="thumbnail">
+                            <a class="lightbox" href="../assets/img/trabajos/benches.jpg">
+                                <img src="../assets/img/trabajos/benches.jpg" alt="Park">
+                            </a>
+                            <div class="caption">
+                                <h3>Thumbnail label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-4 text-center">
-                        <figure class="hover">
-                            <img src="https://images.unsplash.com/photo-1443890923422-7819ed4101c0?crop=entropy&fit=crop&fm=jpg&h=400&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=600"
-                                 alt="Rounded Image" class="img-rounded img-responsive">
-                        </figure>
+                    <div class="col-sm-6 col-md-4 card">
+                        <div class="thumbnail">
+                            <a class="lightbox" href="../assets/img/trabajos/benches.jpg">
+                                <img src="../assets/img/trabajos/benches.jpg" alt="Park">
+                            </a>
+                            <div class="caption">
+                                <h3>Thumbnail label</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
 
+            </div>
+
+        </div>
         <div class="section section-gray" id="contacto">
             <div class="container">
                 <div class="row">
@@ -302,6 +339,7 @@
                 </div>
             </div>
         </div>
+
         <div class="container-fluid " id="flota">
             <div class="row">
                 <div class="col-md-12">
@@ -316,41 +354,17 @@
             </div>
         </div>
     </div>
+
     <footer class="footer  main">
         <div class="container">
             <div class="row">
                 <nav class="footer-nav">
-                    <ul>
-                        <li class="nav-item ">
-                            <a href="https://api.whatsapp.com/send?phone=3584837484">                            <i class="fa fa-whatsapp "></i>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" rel="tooltip" title="Follow us on Twitter" data-placement="bottom" href="https://twitter.com/CreativeTim"
-                               target="_blank">
-                                <i class="fa fa-twitter"></i>
-                                <p class="hidden-lg-up"></p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" rel="tooltip" title="Like us on Facebook" data-placement="bottom" href="https://www.facebook.com/CreativeTim"
-                               target="_blank">
-                                <i class="fa fa-facebook-square"></i>
-                                <p class="hidden-lg-up"></p>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" rel="tooltip" title="Follow us on Instagram" data-placement="bottom" href="https://www.instagram.com/CreativeTimOfficial"
-                               target="_blank">
-                                <i class="fa fa-instagram"></i>
-                                <p class="hidden-lg-up"></p>
-                            </a>
-                        </li>
-                    </ul>
+                    © 2018 Derechos reservados | Magenta Studio Creativo.
+
                 </nav>
                 <div class="credits ml-auto">
                     <span class="copyright">
-						© <script>document.write(new Date().getFullYear())</script>, Creada por  <span class="text-danger">Ml</span>webs
+						 Desarrollada por  <span class="color-pagina">Ml</span>webs
 					</span>
                 </div>
             </div>
@@ -359,11 +373,46 @@
 {% endblock %}
 
 {% block javascripts %}
+
+
     <script src="{{ asset('assets/js/jquery-3.2.1.js') }}"></script>
     <script src="{{ asset('assets/js/jquery-ui-1.12.1.custom.min.js') }}"></script>
     <script src="{{ asset('assets/js/tether.min.js') }}"></script>
     <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('assets/js/paper-kit.js?v=2.0.0') }}"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+    <script>
+        function oculta(){
+            if(pk.misc.navbar_menu_visible == 1) {
+                $('html').removeClass('nav-open');
+                pk.misc.navbar_menu_visible = 0;
+                setTimeout(function(){
+                    $toggle.removeClass('toggled');
+                    $('#bodyClick').remove();
+                }, 550);
+            } else {
+                setTimeout(function(){
+                    $toggle.addClass('toggled');
+                }, 580);
+
+                div = '<div id="bodyClick"></div>';
+                $(div).appendTo("body").click(function() {
+                    $('html').removeClass('nav-open');
+                    pk.misc.navbar_menu_visible = 0;
+                    $('#bodyClick').remove();
+                    setTimeout(function(){
+                        $toggle.removeClass('toggled');
+                    }, 550);
+                });
+
+                $('html').addClass('nav-open');
+                pk.misc.navbar_menu_visible = 1;
+            }
+        }
+    </script>
     <script>
         popup = {
             init: function () {
@@ -406,7 +455,7 @@
     <script>
         $(function(){
             $(window).scroll(function(){
-                if ($(window).scrollTop() > 3830)
+                if ($(window).scrollTop() > 3930)
                 {
                     $("#flota").fadeOut();
                 }
